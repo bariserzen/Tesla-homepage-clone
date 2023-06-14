@@ -8,6 +8,7 @@
     margin: 10px;
     z-index: 2;
     justify-content: space-between;
+    font-weight: 600;
 }
 
 .header__logo {
@@ -59,10 +60,23 @@
   }
 
   @media screen and (max-width: 500px) {
-    .header__right{
+    .header__right {
         margin-right: 0px;
+        margin-left: 65px;
+    }
+    .header__right p {
+        justify-content: end;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 15px;
+    }
+    .header {
+        margin: 0px;
     }
   }
+
+  
 
 
 
