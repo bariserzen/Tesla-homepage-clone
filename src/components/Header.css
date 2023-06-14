@@ -46,6 +46,7 @@
 
 .header__right p {
     margin: 10px;
+    text-align: center;
 }
 
 .header__right p:hover {
@@ -60,19 +61,25 @@
   }
 
   @media screen and (max-width: 500px) {
+    
     .header__right {
+        display: flex;
+        text-transform: uppercase;
         margin-right: 0px;
-        margin-left: 65px;
+        padding: 10px;
     }
+    
     .header__right p {
-        justify-content: end;
-        align-items: center;
-        justify-content: center;
+        margin: 10px;
         text-align: center;
-        font-size: 15px;
     }
-    .header {
-        margin: 0px;
+    
+  }
+
+  @media screen and (max-width: 360px) {
+    
+    .header__right {
+        margin-left: 50px;
     }
   }
 
